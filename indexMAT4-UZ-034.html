@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styleMieszko.css">
+    <link rel="stylesheet" href="./style_2.css">
     <link rel="stylesheet" href="./zum.css">
     <link rel="stylesheet" href="./styleRu.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
@@ -27,25 +27,26 @@
 
     <!-- 1 -->
     <section class="slide active" id="slide1">
-        
+
         <div class="hero-card">
 
-            <h1>👑 Mieszko I i chrzest Polski</h1>
-            <h3>🕵️ Dzisiaj zostaniesz młodym historykiem!</h3>
+            <h1>🍕 Ułamek jako część całości</h1>
+
+            <h3>🔍 Dzisiaj odkryjesz świat ułamków!</h3>
 
             <p>Po tej lekcji:</p>
 
             <ul>
-                <li>✅ dowiesz się, kim był Mieszko I</li>
-                <li>✅ poznasz plemię Polan</li>
-                <li>✅ zrozumiesz, dlaczego chrzest Polski był ważny</li>
-                <li>✅ przygotujesz się do sprawdzianu</li>
+                <li>✅ dowiesz się, co to jest ułamek</li>
+                <li>✅ zrozumiesz, czym jest całość i część</li>
+                <li>✅ poznasz pierwsze przykłady ułamków</li>
+                <li>✅ nauczysz się rozpoznawać ułamki na obrazkach</li>
             </ul>
 
-            <p>⏱️ około 20 minut</p>
+            <p>⏱️ około 15–20 minut</p>
 
             <button class="btn" onclick="nextSlide()">
-                Rozpocznij
+                🚀 Rozpocznij lekcję
             </button>
 
         </div>
@@ -53,43 +54,60 @@
         <footer>
             © 2026 EduMost • Wszelkie prawa zastrzeżone.
         </footer>
+
     </section>
-    <!-- 2 Legenda czy historia? -->
+    <!-- 2 Co to jest całość? -->
     <section class="slide" id="slide2">
         <div class="card lesson-block">
-
-            <h2>📖 Legenda czy historia?</h2>
-            <div class="flex" style="gap: 40px;text-align: left;">
+            <h2>🟢 Co to jest całość?</h2>
+            <div class="flex">
                 <div>
-                    <p>🕵️ Wyobraź sobie, że ktoś opowiada ci historię o smoku mieszkającym pod Wawelem.</p>
-                    <p>Czy możemy sprawdzić, czy smok naprawdę istniał?</p>
-                    <p>❌ Nie.</p>
-                    <p>To jest <b>legenda</b>.</p>
-                </div>
-                <div>
-                    <p>🕵️ A teraz wyobraź sobie, że historycy znaleźli stare kroniki, dokumenty i monety z imieniem
-                        Mieszka I.</p>
-                    <p>Czy możemy sprawdzić, że Mieszko I naprawdę żył?</p>
-                    <p>✅ Tak.</p>
-                    <p>To jest <b>historia</b>.</p>
-                </div>
-            </div>
-            <div class="flex" style="gap: 3%;">
-                <div class="quiz-image">
-                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/smok.png"
-                        class="zum">
+                    <p>Wyobraź sobie pizzę. </p>
+                    <p>Jeszcze jej nie pokroiłeś. Masz całą pizzę.</p>
+                    <p>To właśnie jest <b>całość</b>.</p>
+                    <hr>
+                    <p>W matematyce całość oznacza coś, co jeszcze nie zostało podzielone.</p>
+                    <p>Może to być:</p>
+                    <ul>
+                        <li>pizza 🍕</li>
+                        <li>tort 🎂</li>
+                        <li>tabliczka czekolady 🍫</li>
+                    </ul>
+                    <hr>
                 </div>
                 <div class="quiz-image">
-                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/mieszkoI.png"
-                        class="zum">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/calosc.png"
+                        class="zum" style="width: 70%; margin-left: 20%;">
                 </div>
             </div>
+            <div class="flex">
+                <!-- wopros -->
+                <div class="question-box">
 
-            <p><b>Czy wiesz, że nie wszystkie opowieści o początkach Polski są prawdziwe?</b></p>
-            <p>👑 Lech, Piast i Popiel to bohaterowie legend.</p>
-            <p>📜 Mieszko I to pierwszy władca Polski, o którym pisali kronikarze (<em>летописцы</em>).</p>
+                    <h3>❓ Pomyśl</h3>
+                    <p>Czy jeden kawałek pizzy to już całość?</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_1">Sprawdź</button>
 
-
+                </div>
+                <div class="modal" data-modal="od_1">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h4>Nie. To tylko część.</h4>
+                    </div>
+                </div>
+                <!-- sowa -->
+                <div class="owl-box">
+                    <div class="owl-header">
+                        <span class="sowa">🦉</span> Sowa EduMost mówi
+                    </div>
+                    <p>"Całość to cały przedmiot przed podziałem!"</p>
+                </div>
+            </div>
+            <!-- ⭐ Najważniejsza zasada -->
+            <div class="rule-box">
+                <h3>⭐ Najważniejsza zasada</h3>
+                <p> Dopóki niczego nie podzielimy — mamy <b>jedną całość</b>.</p>
+            </div> <br>
 
             <!-- ru -->
             <button class="ru-btn modal-trigger" data-modal="ru_3">Ua 🇺🇦</button>
@@ -97,110 +115,47 @@
             <div class="modal" data-modal="ru_3">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h4>📖 Легенда чи історія?</h3>
-
-                        <div class="flex">
-
-                            <div>
-                                <p>🕵️ Уяви, що хтось розповідає тобі історію про дракона, який жив під Вавельським
-                                    замком.
-                                </p>
-
-                                <p>Чи можемо ми перевірити, що дракон справді існував?</p>
-
-                                <p>❌ Ні.</p>
-
-                                <p><b>Це легенда.</b></p>
+                    <h3>🟢 Що таке ціле?</h3>
+                    <p>🍕 Уяви собі велику піцу.</p>
+                    <p>Ти ще не розрізав її на шматочки.</p>
+                    <p>У тебе є <b>ціла піца</b>.</p>
+                    <p>Саме це і називається <b>цілим</b>.</p>
+                    <p>У математиці цілим називають предмет, який ще не поділили на частини.</p>
+                    <p>Це може бути:</p>
+                    <ul>
+                        <li>🍕 піца</li>
+                        <li>🎂 торт</li>
+                        <li>🍫 шоколадка</li>
+                        <li>🍎 яблуко</li>
+                    </ul>
+                    <div class="flex">
+                        <div class="question-box">
+                            <h4>❓ Подумай</h4>
+                            <p>Чи є один шматочок піци цілим? <button class="ru-btn-odp modal-trigger"
+                                    data-modal="od_1_1">Перевір</button></p>
+                            <div class="modal" data-modal="od_1_1">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p><b>Ні.</b> Це лише частина піци.</p>
+                                </div>
                             </div>
-
-                            <div>
-                                <p>🕵️ А тепер уяви, що історики знайшли старовинні хроніки, документи та монети з ім'ям
-                                    Мешка І.</p>
-
-                                <p>Чи можемо ми перевірити, що Мешко І справді жив?</p>
-
-                                <p>✅ Так.</p>
-
-                                <p><b>Це історія.</b></p>
-                            </div>
-
                         </div>
-
-                        <h3>Чи знаєш ти, що не всі розповіді про початки Польщі є правдивими?
-                    </h4>
-
-                    <p>👑 Лех, Пяст і Попель — герої легенд.</p>
-
-                    <p>📜 Мешко І — перший правитель Польщі, про якого писали літописці.</p>
-
-                    <div class="remember-note" style="max-width: 100%;">
-
-                        <h3>💡 Запам'ятай!</h3>
-
-                        <div class="flex">
-
-                            <div>
-                                <h4>📖 Легенда</h4>
-
-                                <ul>
-                                    <li>розповідь, яку передають з покоління в покоління</li>
-                                    <li>ми не знаємо, чи все відбулося насправді</li>
-                                    <li>у ній можуть бути вигадані події</li>
-                                </ul>
-
-                                <p>🦅 Лех і білий орел → легенда</p>
+                        <div class="owl-box">
+                            <div class="owl-header">
+                                <span class="sowa">🦉</span> Підказка від Сови EduMost
                             </div>
-
-                            <div>
-                                <h4>📜 Історія</h4>
-
-                                <ul>
-                                    <li>події, які справді відбулися</li>
-                                    <li>історики знайшли докази</li>
-                                    <li>хроніки, документи, будівлі, монети допомагають вивчати минуле</li>
-                                </ul>
-
-                                <p>👑 Мешко І → історія</p>
-                            </div>
-
+                            <p>"Ціле — це весь предмет до того, як його поділили на частини."</p>
                         </div>
-                        <hr>
+                    </div>
 
-                        <p><b>📖 Легенда</b> — цікава розповідь про важливі події.</p>
-
-                        <p><b>📜 Історія</b> — події, підтверджені доказами та історичними джерелами.</p>
-
+                    <div class="rule-box">
+                        <h4>⭐ Найважливіше правило</h4>
+                        <p>Поки ми нічого не поділили — маємо одне ціле.</p>
                     </div>
                 </div>
             </div>
             <!-- end ru -->
-            <div class="remember-note" style="max-width: 80%;">
-                <h3>💡 Zapamiętaj!</h3>
-                <div class="flex">
-                    <div>
-                        <p><b>📖 Legenda</b></p>
-                        <ul>
-                            <li>ktoś opowiada historię</li>
-                            <li>nie wiemy, czy wszystko było naprawdę</li>
-                            <li>mogą pojawić się rzeczy wymyślone</li>
-                        </ul>
-                        <p>🦅 Lech i biały orzeł → legenda</p>
-                    </div>
-                    <div>
-                        <p><b>📜 Historia</b></p>
-                        <ul>
-                            <li>wiemy, że wydarzenie naprawdę się wydarzyło</li>
-                            <li>są dowody: kroniki, dokumenty, budowle, monety</li>
-                        </ul>
-                        <p>👑 Mieszko I → historia</p>
-                    </div>
-                </div><br><br>
 
-                <p>
-                    <b>📖 Legenda</b> = ciekawa opowieść, opowiadają o ważnych wydarzeniach.<br>
-                    <b>📜 Historia</b> = wydarzenia potwierdzone źródłami
-                </p>
-            </div>
             <!-- navigation -->
             <div class="navigation">
                 <button class="btn-back" onclick="prevSlide()">
@@ -217,178 +172,427 @@
             © 2026 EduMost • Wszelkie prawa zastrzeżone.
         </footer>
     </section>
-    <!-- 3 🌾 Kim byli Polanie? -->
+    <!-- 3 Dzielimy całość na równe części -->
     <section class="slide" id="slide3">
         <div class="card lesson-block">
-
-            <h2>🌾 Kim byli Polanie?</h2>
-            <p>🕵️ Wyobraź sobie, że przeniosłeś się ponad 1000 lat wstecz.</p>
-            <p>Nie ma jeszcze Polski, którą znamy dzisiaj.</p>
-            <p>Nie ma aut, komputerów ani szkół.</p>
-            <p>Na tych ziemiach mieszkają różne <b>plemiona słowiańskie</b>.</p>
-            <p>Jednym z najsilniejszych plemion byli <b>Polanie</b>.</p>
-            <p>🏰 Ich najważniejszym grodem było Gniezno. 🇵🇱 Od nazwy plemienia Polanie pochodzi nazwa Polska.</p>
+            <h2>🟡 Dzielimy całość na równe części</h2>
 
             <div class="flex">
-                <div class="quiz-image" >
-                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/mapa_1.png"
-                        class="zum">
+                <div class="quiz-image">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/slide2.png"
+                        class="zum" style="margin-left: 5%;width: 94%;">
                 </div>
-                <div class="quiz-image" >
-                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/grod_slawian.png"
-                        class="zum">
-                </div>
-            </div>
-
-            <div class="cards">
-                <div class="card">
-                    <h4>🌾 Plemię</h4>
-                    <p>Grupa ludzi, którzy mieszkali razem i pomagali sobie nawzajem.</p>
-                </div>
-                <div class="card">
-                    <h4>👨‍👩‍👧‍👦 Słowianie</h4>
-                    <p>Ludzie, którzy mieszkali na tych ziemiach ponad 1000 lat temu.</p>
-                    <p>Polanie byli jednym z plemion słowiańskich.</p>
-                </div>
-                <div class="card">
-                    <h4>🏰 Gród</h4>
-                    <p>🛡️ bezpieczna osada otoczona wałem.</p>
-                    <p>Chroniła mieszkańców przed wrogami.</p>
+                <div>
+                    <p>🍕 Wyobraź sobie, że chcesz podzielić pizzę między swoich przyjaciół.</p>
+                    <p>Jak zrobić to sprawiedliwie?</p>
+                    <p>Każdy powinien dostać taki sam kawałek.</p>
+                    <p>Dlatego całość dzielimy na <b>równe części</b>.</p>
+                    <hr>
+                    <p>Jeżeli wszystkie części są takie same, każdy dostaje po równo.</p>
+                    <p>To właśnie na takich częściach opierają się ułamki.</p>
+                    <hr>
                 </div>
             </div>
 
-            <div class="remember-note">
-                <!-- <div class="pin">📌</div> -->
+            <div class="flex">
 
-                <h3>🧠 Super pamięć!</h3>
+                <!-- pytanie -->
 
-                <p><b>🌾 Polanie</b> → Polska</p>
-                <p><b>🏰 Gniezno</b> → najważniejszy gród Polan</p>
-                <p><b>👑 Mieszko I</b> był władcą Polan</p>
-                <!-- <ul>
-                    <li>ukształtowanie terenu, </li>
-                    <li>skały, </li>
-                    <li>wody,</li>
-                    <li>rośliny, </li>
-                    <li>zwierzęta,</li>
-                    <li>budynki i drogi.</li>
-                </ul> -->
+                <div class="question-box">
+                    <h3>❓ Pomyśl</h3>
+                    <p>Która pizza została podzielona prawidłowo?</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_2">
+                        Sprawdź
+                    </button>
+
+                </div>
+
+                <div class="modal" data-modal="od_2">
+                    <div class="modal-content-odp">
+                        <span class="close">&times;</span>
+                        <h4>✅ Pizza podzielona na równe części.</h4>
+                        <p>Każdy dostaje taki sam kawałek.</p>
+                    </div>
+                </div>
+
+                <!-- sowa -->
+
+                <div class="owl-box">
+                    <div class="owl-header">
+                        <span class="sowa">🦉</span>
+                        Sowa EduMost mówi
+                    </div>
+                    <p>"Ułamki tworzymy tylko wtedy, gdy całość jest podzielona na równe części."</p>
+                </div>
+
             </div>
+
+            <!-- zasada -->
+
+            <div class="rule-box">
+                <h3>⭐ Najważniejsza zasada</h3>
+                <p>Całość musi być podzielona na <b>równe części</b>.</p>
+                <p>Jeśli części nie są równe, nie możemy poprawnie zapisać ułamka.</p>
+            </div>
+
+            <br>
 
             <!-- UA -->
 
-            <button class="ru-btn modal-trigger" data-modal="ua_2">Ua 🇺🇦</button>
+            <button class="ru-btn modal-trigger" data-modal="ru_4">
+                Ua 🇺🇦
+            </button>
 
-            <div class="modal" data-modal="ua_2">
+            <div class="modal" data-modal="ru_4">
+
                 <div class="modal-content">
 
                     <span class="close">&times;</span>
 
-                    <h3>🌾 Хто такі поляни?</h3>
-                    <p>🕵️ Уяви, що ти потрапив у минуле — більш ніж на 1000 років назад!</p>
-                    <p>Польща ще не виглядає так, як сьогодні.</p>
-                    <p>Немає автомобілів, комп'ютерів і навіть шкіл.</p>
-                    <p>На цих землях жили різні <b>слов'янські племена</b>.</p>
-                    <p>Одним із найсильніших племен були <b>поляни</b>.</p>
-                    <p>🏰 Їхнім найважливішим городом було <b>Гнєзно</b>. 🇵🇱 Саме від назви племені <b>поляни</b>
-                        походить назва <b>Польща</b>.</p>
+                    <h3>🟡 Ділимо ціле на рівні частини</h3>
+                    <p>🍕 Уяви, що ти хочеш поділити піцу між друзями. Як зробити це справедливо?</p>
+                    <p>Кожен повинен отримати однаковий шматочок. Тому ціле ділять на <b>рівні частини</b>.</p>
+                    <p>Якщо всі частини однакові, кожен отримує порівну.</p>
+                    <p>Саме на таких частинах будуються дроби.</p>
+                    <div class="flex">
 
-                    <div class="cards">
-                        <div class="card">
-                            <h4>🌾 Плем'я</h4>
-                            <p>Група людей, які жили разом і допомагали одне одному.</p>
+                        <div class="question-box">
+                            <h4>❓ Подумай</h4>
+                            <p>
+                                Яку піцу поділено правильно?
+                                <button class="ru-btn-odp modal-trigger" data-modal="od_2_ua">
+                                    Перевір
+                                </button>
+                            </p>
+
+                            <div class="modal" data-modal="od_2_ua">
+
+                                <div class="modal-content-odp">
+
+                                    <span class="close">&times;</span>
+                                    <p>✅ Правильно поділена та піца,
+                                        де всі шматочки однакові.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h4>👨‍👩‍👧‍👦 Слов'яни</h4>
-                            <p>Люди, які жили на цих землях понад 1000 років тому.</p>
-                            <p>Поляни були одним зі слов'янських племен.</p>
-                        </div>
-                        <div class="card">
-                            <h4>🏰 Город</h4>
-                            <p>Велике поселення, оточене валом і дерев'яним частоколом.</p>
-                            <p>Воно захищало мешканців від ворогів.</p>
+                        <div class="owl-box">
+
+                            <div class="owl-header">
+                                <span class="sowa">🦉</span>
+                                Підказка від Сови EduMost
+                            </div>
+
+                            <p>
+                                "Дріб можна записати лише тоді,
+                                коли ціле поділено на рівні частини."
+                            </p>
+
                         </div>
                     </div>
+                    <div class="rule-box">
+                        <h4>⭐ Найважливіше правило</h4>
+                        <p>
+                            Ціле повинно бути поділене на
+                            <b>рівні частини</b>.
+                        </p>
+                        <p>
+                            Якщо частини різні —
+                            це не правильний дріб.
+                        </p>
 
-                    <div class="remember-note">
-                        <!-- <div class="pin">📌</div> -->
+                    </div>
 
-                        <h3>🧠 Super pamięć!</h3>
+                </div>
 
-                        <p><b>🌾 Поляни</b> → Польша</p>
-                        <p><b>🏰 Гнезно</b> → самый важный город поляков</p>
-                        <p><b>👑 Мешко I</b> → правитель поляков</p>
+            </div>
+
+            <!-- end UA -->
+
+            <div class="navigation">
+
+                <button class="btn-back" onclick="prevSlide()">
+                    ← Wstecz
+                </button>
+
+                <button class="btn-next" onclick="nextSlide()">
+                    Dalej →
+                </button>
+
+            </div>
+
+        </div>
+
+        <footer>
+            © 2026 EduMost • Wszelkie prawa zastrzeżone.
+        </footer>
+    </section>
+    <!-- 4 Co to jest ułamek? -->
+    <section class="slide" id="slide4">
+
+        <div class="card lesson-block">
+            <h2>🔵 Co to jest ułamek?</h2>
+            <div class="flex">
+                <div class="quiz-image">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/slide4.png"
+                        class="zum">
+                </div>
+                <div>
+                    <p>🍕 Spójrz na pizzę.Pizza została podzielona na <b>4 równe części</b>.</p>
+                    <p>Spójrz uważnie. Ile części ma cała pizza?</p>
+                    <p><b>4 części.</b></p>
+                    <p>A ile części zaznaczyliśmy? <b>1 część.</b></p>
+                    <p>Wybraliśmy tylko <b>jeden kawałek</b>.</p>
+                    <p>To nie jest już cała pizza.</p>
+                    <p>To tylko jedna z czterech równych części.</p>
+                    <p>W matematyce zapisujemy to tak:</p>
+
+                    <div class="fraction-big">
+                        1
+                        <hr>
+                        4
+                    </div>
+                    <p>
+                        Czytamy:
+                        <b>jedna czwarta</b>.
+                    </p>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="owl-box">
+                    <div class="owl-header">
+                        <span class="sowa">🦉</span>
+                        Sowa EduMost mówi
+                    </div>
+                    <p>Ułamek pokazuje, jaką część całości mamy. </p>
+                </div>
+
+                <div class="question-box">
+                    <h3>❓ Pomyśl</h3>
+                    <p>Jeśli tort ma 4 części,
+                        a weźmiemy 1 część,
+                        to jaki ułamek otrzymamy?</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_3">Sprawdź</button>
+                </div>
+            </div>
+            <div class="modal" data-modal="od_3">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+
+                    <h4>✅ Jedna czwarta</h4>
+
+                    <div class="fraction-big">
+                        1
+                        <hr>
+                        4
+                    </div>
+
+                </div>
+            </div>
+            <!-- UA -->
+
+            <button class="ru-btn modal-trigger" data-modal="ru_5">
+                Ua 🇺🇦
+            </button>
+
+            <div class="modal" data-modal="ru_5">
+
+                <div class="modal-content">
+
+                    <span class="close">&times;</span>
+                    <h3>🔵 Що таке дріб?</h3>
+                    <div class="flex">
+                        <div>
+                            <p>🍕 Подивися на піцу. Піцу поділили на <b>4 рівні частини</b>.</p>
+                            <p>Подивися уважно. Скільки частин має вся піца?</p>
+                            <p><b>4 частини.</b></p>
+                            <p>А скільки частин ми позначили?</p>
+                            <p><b>1 частину.</b></p>
+                            <p>Ми вибрали лише один шматочок. Це вже не ціла піца.</p>
+                            <p>Це лише одна з чотирьох рівних частин.</p>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/slide4.png"
+                                class="zum" style="width: 80%;">
+                        </div>
+                    </div>
+                    <p>У математиці записуємо це так:</p>
+                    <div class="fraction-big">
+                        1
+                        <hr>
+                        4
+                    </div>
+
+                    <p><b>Читаємо: одна четверта.</b></p>
+                    <p>
+                        Це означає, що ми взяли
+                        <b>1 частину з 4 рівних частин</b>.
+                    </p>
+
+                    <div class="flex">
+
+                        <div class="owl-box">
+
+                            <div class="owl-header">
+                                <span class="sowa">🦉</span>
+                                Підказка від Сови EduMost
+                            </div>
+
+                            <p>
+                                Дріб показує,
+                                яку частину цілого ми маємо.
+                            </p>
+
+                        </div>
+
+                        <div class="question-box">
+
+                            <h4>❓ Подумай</h4>
+
+                            <p>
+                                Якщо піцу поділили на 4 частини
+                                і взяли 1 частину,
+                                який дріб отримаємо?
+                            </p>
+
+                            <button class="ru-btn-odp modal-trigger" data-modal="od_3_ua">
+                                Перевір
+                            </button>
+
+                        </div>
+
+                        <div class="modal" data-modal="od_3_ua">
+
+                            <div class="modal-content">
+
+                                <span class="close">&times;</span>
+
+                                <h4>✅ Одна четверта</h4>
+
+                                <div class="fraction-big">
+                                    1
+                                    <hr>
+                                    4
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="rule-box">
+
+                        <h4>⭐ Запам'ятай</h4>
+
+                        <p>
+                            Дріб показує частину цілого.
+                        </p>
+
                     </div>
                 </div>
             </div>
 
-            <!-- END UA -->
-
-            <!-- navigation -->
+            <!-- end UA -->
             <div class="navigation">
                 <button class="btn-back" onclick="prevSlide()">
                     ← Wstecz
                 </button>
-
                 <button class="btn-next" onclick="nextSlide()">
                     Dalej →
                 </button>
             </div>
-            <!-- end navigation -->
-
         </div>
         <footer>
             © 2026 EduMost • Wszelkie prawa zastrzeżone.
         </footer>
     </section>
-    <!-- 4 Zadanie - 1 -->
-    <section class="slide" id="slide4">
-        <h2>🎯 Zadanie 1</h2>
-        <div class="card lesson-block">
-            <div class="quiz-image">
-                <img
-                    src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/podumaj.png">
-            </div>
-
-            <h4>Co to jest gród?</h4>
-            <div class="answers">
-                <button onclick="checkAnswer(this)"> Mała wioska </button>
-                <button onclick="checkAnswer(this)" data-correct="true"> Osada otoczona wałem obronnym </button>
-                <button onclick="checkAnswer(this)"> Zamek króla </button>
-            </div>
-            <div class="taskResult"></div>
-            <!-- navigation -->
-            <div class="navigation">
-                <button class="btn-back" onclick="prevSlide()">
-                    ← Wstecz
-                </button>
-
-                <button class="btn-next" onclick="nextSlide()">
-                    Dalej →
-                </button>
-            </div>
-            <!-- end navigation -->
-        </div>
-        <footer>
-            © 2026 EduMost • Wszelkie prawa zastrzeżone.
-        </footer>
-    </section>
-    <!-- 5 Zadanie - 2 -->
+    <!-- 5 Jaka część została wzięta? -->
     <section class="slide" id="slide5">
-        <h2>🎯 Zadanie 2</h2>
         <div class="card lesson-block">
-            <div class="quiz-image">
-                <img
-                    src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/podumaj.png">
-            </div>
+            <h2>Jaka część została wzięta?</h2>
+            <p>🔍 Spójrz na obrazek i powiedz, jaka część została wzięta.</p>
+            <div class="owl-box">
+                <div class="owl-header">
+                    <span class="sowa">🦉</span> Sowa EduMost mówi:
 
-            <h4>Kim byli Polanie?</h4>
-            <div class="answers">
-                <button onclick="checkAnswer(this)"> Mieszkańcami Gniezna </button>
-                <button onclick="checkAnswer(this)" data-correct="true"> Plemieniem słowiańskim </button>
-                <button onclick="checkAnswer(this)"> Rycerzami </button>
+                </div>
+                <p>"Najpierw policz wszystkie części, <br>a potem policz te, <br>które zostały wzięte."</p>
             </div>
-            <div class="taskResult"></div>
+            <div class="flex">
+                <div class="quiz-image-flex">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/tort.png"
+                        class="zum">
+                    <p>🎂 Tort</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_5_1">Sprawdź</button>
+                </div>
+                <div class="quiz-image-flex">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/szokolad.png"
+                        class="zum">
+                    <p>🍫 Czekolada</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_5_2">Sprawdź</button>
+                </div>
+                <div class="quiz-image-flex">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/pica.png"
+                        class="zum">
+                    <p>🍕 Pizza</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_5_3">Sprawdź</button>
+                </div>
+                <div class="quiz-image-flex">
+                    <img src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/matematyka/eduMost/MAT4-UZ-034/ser.png"
+                        class="zum">
+                    <p>🧀 Ser</p>
+                    <button class="ru-btn-odp modal-trigger" data-modal="od_5_2">Sprawdź</button>
+                </div>
+            </div>
+            <div>
+                <div class="modal" data-modal="od_5_1">
+                    <div class="modal-content-odp">
+                        <span class="close">&times;</span>
+                        <div class="fraction-big">1
+                            <hr>4
+                        </div>
+                        <h4>✅ jedna czwarta / одна четверта</h4>
+                    </div>
+                </div>
+                <div class="modal" data-modal="od_5_2">
+                    <div class="modal-content-odp">
+                        <span class="close">&times;</span>
+                        <div class="fraction-big">2
+                            <hr>8
+                        </div>
+                        <h4>✅ dwie ósme / дві восьмих</h4>
+                    </div>
+                </div>
+                <div class="modal" data-modal="od_5_3">
+                    <div class="modal-content-odp">
+                        <span class="close">&times;</span>
+
+                        <div class="fraction-big">3
+                            <hr>5
+                        </div>
+                        <h4>✅ trzy piąte / три п'ятих</h4>
+                    </div>
+                </div>
+                <div class="modal" data-modal="od_5_4">
+                    <div class="modal-content-odp">
+                        <span class="close">&times;</span>
+
+                        <div class="fraction-big">2
+                            <hr>8
+                        </div>
+                        <h4>✅ dwie ósme / дві восьмих</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="fact-box">
+                <h5>💡 Czy wiesz?</h5>
+                <p>Ułamki spotykamy codziennie:</p>
+                <ul>
+                    <li>🍕 kawałek pizzy</li>
+                    <li>🍫 kostki czekolady</li>
+                    <li>🎂 kawałek tortu</li>
+                </ul>
+            </div>
             <!-- navigation -->
             <div class="navigation">
                 <button class="btn-back" onclick="prevSlide()">
@@ -405,22 +609,61 @@
             © 2026 EduMost • Wszelkie prawa zastrzeżone.
         </footer>
     </section>
-    <!-- 6 Zadanie - 3 -->
-    <section class="slide" id="slide6">
-        <h2>🎯 Zadanie 3. Dokończ zdanie</h2>
+    <!-- 6 Zadanie - 3 -->class="slide" id="slide6"
+    <section>
         <div class="card lesson-block">
-            <div class="quiz-image">
-                <img
-                    src="https://raw.github.com/ksushatarasenko/polishSzkola_4klasa_assets/main/historia/mieszko_I/podumaj.png">
+            <h2>❌ Najczęstsze błędy</h2>
+            <p class="p20"
+                style="color: rgb(154, 14, 154);font-size: 22px;font-style: italic;font-weight: 700;text-align: center;">
+                Zobacz, czego trzeba unikać podczas pracy z ułamkami.</p>
+            <div class="mistakes-grid">
+
+                <div class="warning-box">
+                    <h3>❌ Nierówne części</h3>
+                    <p>Ułamek działa tylko wtedy,
+                        gdy całość podzielono na
+                        <b>równe części</b>.
+                    </p>
+                    <p>Jeśli jeden kawałek jest większy,
+                        a drugi mniejszy —
+                        nie możemy poprawnie zapisać ułamka.</p>
+                </div>
+
+                <div class="warning-box">
+                    <h3>❌ Zapisywanie odwrotnie. Mylimy liczbę wszystkich części z liczbą zaznaczonych części</h3>
+
+                    <div class="flex">
+                        <div>
+                            <p>Jeśli mamy 1 kawałek z 4, zapisujemy:</p>
+                            <div class="fraction-big">1
+                                <hr>4
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                Nie:
+                            </p>
+
+                            <div class="fraction-big wrong">
+                                4
+                                <hr>
+                                1
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <h4>Od nazwy Polanie pochodzi nazwa...</h4>
-            <div class="answers">
-                <button onclick="checkAnswer(this)" data-correct="true"> Polska </button>
-                <button onclick="checkAnswer(this)"> Warszawa </button>
-                <button onclick="checkAnswer(this)"> Gniezno </button>
+            <div class="flex">
+                <div class="owl-box">
+                    <div class="owl-header">
+                        <span class="sowa">🦉</span> Sowa EduMost mówi:
+
+                    </div>
+                    <p>"Najpierw policz wszystkie części, <br>a potem policz te, <br>które zostały wzięte."</p>
+                </div>
             </div>
-            <div class="taskResult"></div>
+
             <!-- navigation -->
             <div class="navigation">
                 <button class="btn-back" onclick="prevSlide()">
@@ -549,8 +792,8 @@
             </div>
             <!-- end navigation -->
             <footer>
-            © 2026 EduMost • Wszelkie prawa zastrzeżone.
-        </footer>
+                © 2026 EduMost • Wszelkie prawa zastrzeżone.
+            </footer>
     </section>
     <!-- 9 Dobrawa i ważne małżeństwo -->
     <section class="slide" id="slide9">
@@ -566,7 +809,8 @@
             <div class="flex">
                 <div>
                     <h5>💡 Ciekawostka</h5>
-                    <p>Dawniej małżeństwa książąt i księżniczek często pomagały budować przyjaźń między państwami.</p>
+                    <p>Dawniej małżeństwa książąt i księżniczek często pomagały budować przyjaźń między
+                        państwami.</p>
                     <p>Małżeństwo Mieszka I i Dobrawy było bardzo ważne dla Polski.</p>
                 </div>
                 <div class="quiz-image" style="margin-top: -15%; margin-left: 25%;">
@@ -598,11 +842,13 @@
                     <p>👸 Добрава була чеською князівною.</p>
                     <p>🇨🇿 Вона походила з Чехії.</p>
                     <p>✝️ Була християнкою.</p>
-                    <p>Добрава заохочувала Мешка І познайомитися з християнством. 🤝 Завдяки цьому Польща стала ближчою
+                    <p>Добрава заохочувала Мешка І познайомитися з християнством. 🤝 Завдяки цьому Польща стала
+                        ближчою
                         до інших країн Європи.</p>
                     <hr>
                     <h5>💡 Цікавий факт</h5>
-                    <p>У давнину шлюби князів і князівен часто допомагали будувати дружні відносини між державами. Шлюб
+                    <p>У давнину шлюби князів і князівен часто допомагали будувати дружні відносини між
+                        державами. Шлюб
                         Мешка І та Добрави був дуже важливим для Польщі.</p>
                     <hr>
                     <h4>✝️ До хрещення</h4>
@@ -857,7 +1103,8 @@
 
             <div class="answers">
                 <button onclick="checkAnswer(this)"> Królem Polski </button>
-                <button onclick="checkAnswer(this)" data-correct="true"> Pierwszym historycznym władcą Polski </button>
+                <button onclick="checkAnswer(this)" data-correct="true"> Pierwszym historycznym władcą Polski
+                </button>
                 <button onclick="checkAnswer(this)"> Rycerzem </button>
             </div>
             <div class="taskResult">
@@ -1066,16 +1313,16 @@
             <p>🎓 Ukończyłeś lekcję!</p>
             <h3>🏅 Otrzymujesz odznakę:</h6>
                 <h2 style="color: beige;">Teraz już wiesz:</h2>
-                    <ul>
-                        <li>✅ Kim byli Polanie</li>
-                        <li>✅ Znasz już Mieszka I</li>
-                        <li>✅ Wiesz, kim była Dobrawa</li>
-                        <li>✅ Pamiętasz datę 966, dlaczego jest ważny</li>
-                        <li>✅ Rozumiesz, czym i dlaczego był Chrzest Polski </li>
-                    </ul>
-                    <p>⭐ Jesteś gotowy na następną lekcję historii!</p>
-                    <hr>
-                    <h2 style="color: rgb(232, 232, 2);">📝 Wypełnij krótką ankietę dla rodziców</p>
+                <ul>
+                    <li>✅ Kim byli Polanie</li>
+                    <li>✅ Znasz już Mieszka I</li>
+                    <li>✅ Wiesz, kim była Dobrawa</li>
+                    <li>✅ Pamiętasz datę 966, dlaczego jest ważny</li>
+                    <li>✅ Rozumiesz, czym i dlaczego był Chrzest Polski </li>
+                </ul>
+                <p>⭐ Jesteś gotowy na następną lekcję historii!</p>
+                <hr>
+                <h2 style="color: rgb(232, 232, 2);">📝 Wypełnij krótką ankietę dla rodziców</p>
 
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2lVAGNc5BY70XMJDQudIh2xpq3cvjleM21-YbFbrSRsw2Sg/viewform?usp=publish-editor"
                         target="_blank" class="survey-btn">
@@ -1088,7 +1335,7 @@
             © 2026 EduMost • Wszelkie prawa zastrzeżone.
         </footer>
     </section>
-    <script src="scriptMieszko.js"></script>
+    <script src="script_2.js"></script>
     <script src="imageZum.js"></script>
     <script src="scriptRu.js"></script>
 

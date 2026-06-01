@@ -3,6 +3,6 @@ document
 .addEventListener("click", () => {
 
 window.location.href =
-"indexMieszko.html";
+"indexMAT4-UZ-034.html";
 
 });

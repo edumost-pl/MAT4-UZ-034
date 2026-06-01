@@ -22,8 +22,8 @@ margin:auto;
 .hero{
 background:linear-gradient(
 135deg,
-#b4661e,
-#c18d57
+#4A90E2,
+#adccef
 );
 color:white;
 padding:100px 20px;
@@ -32,7 +32,7 @@ text-align:center;
 
 .badge{
 background:white;
-color:#3aa655;
+color:#4A90E2;
 padding:8px 14px;
 border-radius:30px;
 font-weight:600;
@@ -54,6 +54,11 @@ margin:auto;
     color: rgb(170, 41, 170);
     font-style: italic;
 }
+.lesson-block .p20{
+    font-size: 20px;
+    color: rgb(170, 41, 170);
+    font-style: italic;
+}
 p{
     font-size: 18px;
 }
@@ -68,14 +73,14 @@ border:none;
 border-radius:12px;
 /* background:white;
 color:#3aa655; */
-background:#b16721;
+background:#4A90E2;
 color:white;
 font-weight:700;
 cursor:pointer;
 text-decoration:none;
 }
 .btn:hover{
-    background:#ab590c;
+    background:#286cbb;
     color:white;
     scale: 0.9;
 }
@@ -92,8 +97,8 @@ margin-top:30px;
 }
 
 .card{
-background:rgb(211, 185, 144);
-background-color:rgb(215, 159, 69);
+background:#82aedf;
+background-color:#4A90E2;
 
 padding:25px;
 border-radius:18px;
@@ -113,7 +118,7 @@ box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
 
 .subject{
-color:#3aa655;
+color:#4A90E2;
 font-weight:600;
 }
 
