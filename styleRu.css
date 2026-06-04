@@ -1,3 +1,5 @@
+/* styleRu.css */
+
 .ru-btn {
     background: linear-gradient(135deg, #6ec6ff, #4f8cff);
     color: white;
@@ -15,7 +17,15 @@
     
     transition: all 0.15s ease;
 }
-.ru-btn-odp {
+.btn_odp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    margin-bottom: 2%;
+}
+.answer-trigger {
     background: linear-gradient(135deg, #6ec6ff, #4f8cff);
     color: white;
     border: none;
@@ -25,8 +35,9 @@
     /* font-weight: bold; */
     cursor: pointer;
     width: 120px;
+    height: 30px;
     margin: 0 auto;
-    /* display: block; */
+   margin-left: 94%;
 
     box-shadow: 0 4px 0 #2f5fbf;
     
@@ -34,7 +45,7 @@
 }
 /* Наведение */
 .ru-btn:hover,
-.ru-btn-odp:hover {
+.answer-trigger:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 0 #2857b5;
     background: linear-gradient(135deg, #7ad4ff, #3872d1);
@@ -49,8 +60,8 @@
 /* Для планшета/телефона */
 @media (max-width: 768px) {
     .ru-btn {
-        font-size: 22px;
         padding: 12px 22px;
+        font-size: 16px;
     }
 }
 

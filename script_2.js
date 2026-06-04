@@ -266,3 +266,42 @@ document.addEventListener(
 "DOMContentLoaded",
 updateProgress
 );
+
+// ответ
+// document.querySelectorAll('.answer-trigger').forEach(btn => {
+//     btn.addEventListener('click', () => {
+//         document
+//             .getElementById(btn.dataset.answer)
+//             .classList.toggle('show');
+//     });
+// });
+
+// JS
+
+const btn = document.getElementById('showAnswerBtn');
+
+const questionBox = document.getElementById('questionBox');
+const answerBox = document.getElementById('answerBox');
+
+let showingAnswer = false;
+
+btn.addEventListener('click', () => {
+
+    showingAnswer = !showingAnswer;
+
+    if(showingAnswer){
+
+        questionBox.style.display = 'none';
+        answerBox.style.display = 'block';
+
+        btn.innerHTML = '↩ Wróć do pytania';
+
+    } else {
+
+        answerBox.style.display = 'none';
+        questionBox.style.display = 'block';
+
+        btn.innerHTML = '💡 Sprawdź odpowiedź';
+    }
+
+});
