@@ -818,6 +818,7 @@ ul {
         0 12px 20px rgba(0,0,0,.15);
 
     transition:.25s;
+    z-index: 10;
 }
 
 .btn-owl button:hover{
