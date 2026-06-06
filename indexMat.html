@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        EduMost | MAT4-UZ-034
+    </title>
+
+    <!-- Fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="styleMat.css">
+    <link rel="stylesheet" href="styleRu.css">
+    <link rel="stylesheet" href="zum.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+    POWRÓT
+    ================================================== -->
+
+    <a href="index.html" class="back-btn">← Powrót do strony głównej</a>
+
+    <!-- ==================================================
+    PROGRESS BAR
+    ================================================== -->
+
+    <div class="progress-wrapper">
+        <div class="progress-track">
+            <div class="progress-bar" id="progressBar">
+            </div>
+        </div>
+        <div class="progress-text" id="progressText">
+            📍 Etap 1 z 15
+        </div>
+    </div>
+
+    <!-- ==================================================
+    LESSON START
+    ================================================== -->
+
+    <main>
+
+        <!-- ==========================================
+        SLIDE 1  HERO
+        ========================================== -->
+        <section class="slide active" id="slide1">
+            <div class="lesson-container">
+                <div class="hero-card">
+                    <h1>🍕 Ułamek jako część całości</h1>
+                    <h3>🔍 Odkrywamy świat ułamków!</h3>
+                    <p> W tej lekcji dowiesz się, czym jest ułamek i jak pokazuje część całości.</p>
+
+                    <ul>
+                        <li>✅ poznasz pojęcie całości i części</li>
+                        <li>✅ nauczysz się rozpoznawać ułamki</li>
+                        <li>✅ wykonasz misję Sowy EduMost</li>
+                    </ul>
+
+                    <button class="btn btn-primary" onclick="nextSlide()">
+                        🚀 Rozpocznij lekcję
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- ==========================================
+        SLIDE 2
+        JUŻ ZNASZ
+        ========================================== -->
+        <section class="slide" id="slide2">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🦉 Już znasz</h2>
+                    <div class="grid-2">
+                        <div>
+                            <ul>
+                                <li>🔢 umiesz liczyć</li>
+                                <li>🍎 potrafisz dzielić przedmioty na części</li>
+                                <li>🍕 wiesz, że pizzę można pokroić na kawałki</li>
+                                <li>⚖️ rozumiesz, co znaczy „po równo”</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img src="image/juz-znasz.png" class="lesson-image zum">
+                        </div>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>
+                                Zapamiętaj
+                            </span>
+                        </div>
+                        <p>
+                            Wszystkie nowe wiadomości
+                            budujemy na tym,
+                            co już wiemy.
+                        </p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==========================================
+        SLIDE 3
+        CZEGO SIĘ NAUCZYSZ
+        ========================================== -->
+        <section class="slide" id="slide3">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🎯 Czego się nauczysz</h2>
+                    <div class="grid-3">
+                        <div class="word-card">
+                            <h3>🍕</h3>
+                            <p>rozpoznawać części całości</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>➗</h3>
+                            <p>rozumieć, czym jest ułamek</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>🔢</h3>
+                            <p>odczytywać proste ułamki</p>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-think">
+
+                        <div class="rule-title">
+                            <img src="image/sowa_misia.png" alt="Sowa EduMost">
+                            <span>Misja na dziś</span>
+                        </div>
+                        <p>Na końcu lekcji będziesz potrafił powiedzieć:</p>
+                        <p><strong>„To jest jedna część z czterech części.”</strong></p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">← Wstecz</button>
+                        <button class="btn btn-primary" onclick="nextSlide()"> Dalej →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==========================================
+        SLIDE 4
+        NOWE SŁOWA
+        ========================================== -->
+
+        <section class="slide" id="slide4">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>📚 Nowe słowa</h2>
+                    <p style="text-align:center;">Poznaj słowa, które będą nam potrzebne podczas lekcji.</p>
+                    <div class="vocab-grid">
+                        <div class="word-card">
+                            <h3>🍕 Całość</h3>
+                            <p>Ціле</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>🧩 Część</h3>
+                            <p>Частина</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>⚖️ Równe części</h3>
+                            <p>Рівні частини</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>➗ Ułamek</h3>
+                            <p>Дріб</p>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>Zapamiętaj</span>
+                        </div>
+                        <p>Te słowa będą wracały
+                            w kolejnych lekcjach matematyki.</p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">← Wstecz</button>
+                        <button class="btn btn-primary" onclick="nextSlide()">Dalej →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 5
+        CO TO JEST CAŁOŚĆ
+        ========================================== -->
+
+        <section class="slide" id="slide5">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🟢 Co to jest całość?</h2>
+                    <div class="grid-2">
+                        <div>
+                            <p>🍕 Wyobraź sobie pizzę.</p>
+                            <p>Jeszcze jej nie pokroiłeś.</p>
+                            <p>Masz całą pizzę.</p>
+                            <p>To właśnie jest
+                                <strong>całość</strong>.
+                            </p>
+                            <br>
+                            <p> W matematyce całość oznacza coś, co jeszcze nie zostało podzielone.</p>
+                            <!-- ua -->
+                            <div class="ua-box">
+                                <button class="ua-trigger">🇺🇦 Українською</button>
+                                <div class="ua-content">
+                                    <p>🍕 Уяви піцу. </p>
+                                    <p>Ти ще її не розрізав.</p>
+                                    <p>У тебе є вся піца.</p>
+                                    <p>Це і є <b>ціле</b>.</p>
+                                    <p>У математиці ціле — це те, що ще не поділили на частини.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/calosc.png" class="lesson-image zum" alt="Całość">
+                        </div>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>
+                                Zapamiętaj
+                            </span>
+                        </div>
+                        <p>Dopóki niczego nie podzielimy, mamy jedną całość.</p>
+                    </div>
+
+                    <!-- end ua -->
+
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">Dalej →</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==========================================
+        SLIDE 6
+        RÓWNE CZĘŚCI
+        ========================================== -->
+
+        <section class="slide" id="slide6">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🟡 Dzielimy całość na części</h2>
+                    <div class="grid-2">
+                        <div>
+                            <img src="image/slide2.png" class="lesson-image zum" alt="Równe części">
+                        </div>
+                        <div style="margin-left: 2%;">
+                            <p>🍕 Teraz pokroiliśmy pizzę.</p>
+                            <p>Nie mamy już jednej całości.</p>
+                            <p>Mamy kilka części.</p>
+                            <p>Wszystkie kawałki są takie same.</p>
+                            <p>To są <strong>równe części</strong>.</p>
+                            <!-- ua -->
+                            <div class="ua-box">
+                                <button class="ua-trigger">🇺🇦 Українською</button>
+                                <div class="ua-content">
+                                    <p>
+                                        🍕 Тепер ми розрізали піцу.
+                                    </p>
+
+                                    <p>
+                                        У нас вже немає одного цілого.
+                                    </p>
+
+                                    <p>
+                                        Тепер у нас є кілька частин.
+                                    </p>
+
+                                    <p>
+                                        Усі шматочки однакові.
+                                    </p>
+
+                                    <p>
+                                        Це рівні частини.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rule-box">
+                        <div class="rule-title" style="margin-top: -20px;">
+                            <img src="image/sowa_zasady.png" alt="Sowa EduMost" style="width: 200px;height: 200px;">
+                        </div>
+                        <p>
+                            Ułamki tworzymy tylko wtedy,
+                            gdy całość została podzielona
+                            na równe części.
+                        </p>
+                        <div class="ua-box">
+                            <button class="ua-trigger">🇺🇦 Українською</button>
+                            <div class="ua-content">
+                                <p> Дріб можна записати лише тоді, коли ціле поділено на <b>рівні частини</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-warning">
+                        <div class="rule-title">
+                            <img src="image/sowa_uwazaj.png" alt="Sowa EduMost">
+                            <span>
+                                Uważaj
+                            </span>
+                        </div>
+                        <p>Jeśli jeden kawałek jest większy,
+                            a drugi mniejszy, nie możemy poprawnie zapisać ułamka.</p>
+                        <div class="ua-box">
+                            <button class="ua-trigger">🇺🇦 Українською</button>
+                            <div class="ua-content">
+                                <p> Якщо частини мають <b>різний розмір</b>, ми <b>не можемо</b> правильно записати
+                                    <b>дріб</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==========================================
+        SLIDE 7
+        CO TO JEST UŁAMEK
+        ========================================== -->
+
+        <section class="slide" id="slide7">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🔵 Co to jest ułamek?</h2>
+                    <div class="grid-2">
+                        <div>
+                            <img src="image/pizza_1_4.png" class="lesson-image zum" alt="Jedna czwarta">
+                        </div>
+                        <div>
+                            <p>🍕 Pizza została podzielona
+                                na 4 równe części.</p>
+                            <p>Zaznaczyliśmy tylko jeden kawałek.</p>
+                            <p>To już nie jest cała pizza.</p>
+                            <p>To jedna z czterech części.</p>
+                            <p>Taki zapis nazywamy
+                                <strong>ułamkiem</strong>.
+                            </p>
+                            <!-- ua -->
+                            <div class="ua-box">
+                                <button class="ua-trigger">🇺🇦 Українською</button>
+                                <div class="ua-content">
+                                    <p>🍕 Піцу поділили на 4 рівні частини.</p>
+                                    <p>Ми виділили лише один шматочок.</p>
+                                    <p>Це вже не ціла піца.</p>
+                                    <p>Це одна з чотирьох частин.</p>
+                                    <p>Такий запис називається дробом.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-think">
+                        <div class="rule-title" style="margin-top: -20px;">
+                            <img src="image/sowa_mowi.png" alt="Sowa EduMost" style="width: 200px;height: 200px;">
+                        </div>
+                        <p>Ułamek pokazuje,
+                            jaką część całości mamy.</p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 8
+        JAK ZAPISUJEMY UŁAMEK
+        ========================================== -->
+
+        <section class="slide" id="slide8">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🔢 Jak zapisujemy ułamek?</h2>
+                    <div class="grid-2">
+                        <div><img src="image/pizza_1_4_2.png" class="lesson-image zum">
+                        </div>
+                        <div>
+                            <p> Mamy jedną część z czterech części.</p>
+                            <p>Matematycy zapisują to tak:</p>
+                            <div class="fraction">
+                                1
+                                <hr>
+                                4
+                            </div>
+                            <p>Czytamy:</p>
+                            <h3>jedna czwarta</h3>
+                        </div>
+                    </div>
+                    <div class="rule-box">
+                        <div class="rule-title" style="margin-top: -20px;">
+                            <img src="image/sowa_zasady.png" alt="Sowa EduMost" style="width: 200px;height: 200px;">
+                        </div>
+                        <p>1 część z 4 części to jedna czwarta.</p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==========================================
+        SLIDE 9
+        SOWA PYTA
+        ========================================== -->
+
+        <section class="slide" id="slide9">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🔢 Licznik i mianownik</h2>
+                    <div class="fraction" style="font-size:70px;width:140px;">
+                        1
+                        <hr>
+                        4
+                    </div>
+                    <br>
+                    <div class="grid-2">
+                        <div class="word-card">
+                            <h3>⬆️ Licznik</h3>
+                            <p>Liczba na górze.</p>
+                            <p>Pokazuje, ile części bierzemy.</p>
+                            <h2>1</h2>
+                        </div>
+                        <div class="word-card">
+                            <h3>⬇️ Mianownik</h3>
+                            <p>Liczba na dole.</p>
+                            <p>Pokazuje, na ile części
+                                podzielono całość.</p>
+                            <h2>4</h2>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>
+                                Zapamiętaj
+                            </span>
+                        </div>
+                        <p>
+                            Najpierw patrzymy,
+                            na ile części podzielono całość.
+                        </p>
+                        <p>
+                            Potem sprawdzamy,
+                            ile części zostało zaznaczonych.
+                        </p>
+                        <!-- ua -->
+                        <div class="ua-box">
+                            <button class="ua-trigger">🇺🇦 Українською</button>
+                            <div class="ua-content">
+                                <p>Спочатку ми дивимося, <b>на скільки частин поділили ціле</b>.</p>
+                                <p>Потім перевіряємо, <b>скільки частин поділили ціле</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==========================================
+        SLIDE 10
+        UŁAMKI WOKÓŁ NAS
+        ========================================== -->
+
+        <section class="slide" id="slide10">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+
+                    <div class="owl-card owl-think owl-question">
+                        <div class="question-box">
+                            <div class="rule-title">
+                                <img src="image/sowa_pomysl.png" alt="Sowa EduMost">
+                                <span>Pomyśl</span>
+                            </div>
+                            <h4></h4>
+                            <p>
+                                🍕 Pizza została podzielona
+                                na 8 równych części.
+                            </p>
+                            <p>
+                                Jeśli zjesz 1 kawałek,
+                                czy zjesz całą pizzę?
+                            </p>
+                        </div>
+                        <div class="answer-box" style="display:none;">
+                            <h4>💡 Odpowiedź</h4>
+                            <p class="green">
+                                Nie.
+                            </p>
+                            <p>
+                                Jeden kawałek to tylko
+                                część całej pizzy.
+                            </p>
+                        </div>
+                        <br>
+                        <button class="btn btn-answer show-answer">
+                            💡 Sprawdź odpowiedź
+                        </button>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <div class="question-box">
+                            <div class="rule-title">
+                                <img src="image/sowa_co_juz_wiem.png" alt="Sowa EduMost">
+                                <span>Co już wiemy?</span>
+                            </div>
+                            <p>Ułamek pokazuje część całości.
+                            </p>
+                        </div>
+                        <div class="navigation">
+                            <button class="btn btn-secondary" onclick="prevSlide()">
+                                ← Wstecz
+                            </button>
+                            <button class="btn btn-primary" onclick="nextSlide()">
+                                Dalej →
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 11
+        UWAŻAJ
+        ========================================== -->
+
+        <section class="slide" id="slide11">
+            <div class="lesson-container">
+                <div class="card section-lesson">
+                    <h2>🌍 Ułamki wokół nas</h2>
+                    <p style="text-align:center;">
+                        Ułamki spotykamy każdego dnia.
+                    </p>
+                    <br>
+                    <div class="math-object-grid">
+                        <div class="math-object-card">
+                            <img src="image/pizza-1-8.png" alt="Pizza">
+                            <h3>1/8 pizzy</h3>
+                        </div>
+                        <div class="math-object-card">
+                            <img src="image/chocolate-2-6.png" alt="Czekolada">
+                            <h3>2 kostki</h3>
+                        </div>
+                        <div class="math-object-card">
+                            <img src="image/cake-slice.png" alt="Tort">
+                            <h3>Kawałek tortu</h3>
+                        </div>
+                        <div class="math-object-card">
+                            <img src="image/apple-half.png" alt="Jabłko">
+                            <h3>Połówka jabłka</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="fact-box">
+                        <h3>💡 Czy wiesz?</h3>
+                        <p>
+                            Kiedy dzielisz coś na równe części,
+                            bardzo często używasz ułamków.
+                        </p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 12
+        MISJA SOWY
+        ========================================== -->
+
+        <section class="slide" id="slide12">
+            <div class="lesson-container">
+                <div class="card section-warning">
+                    <div class="rule-title">
+                        <img src="image/sowa_uwazaj.png" alt="Sowa EduMost">
+                        <span>Uważaj</span>
+                    </div>
+                    <p style="text-align:center;">
+                        Zobacz najczęstsze błędy.
+                    </p>
+                    <br>
+                    <div class="grid-2">
+                        <div class="warning-box">
+                            <h3>
+                                ❌ Nierówne części
+                            </h3>
+                            <p>
+                                Ułamek działa tylko wtedy,
+                                gdy całość została podzielona
+                                na równe części.
+                            </p>
+                        </div>
+                        <div class="warning-box">
+                            <h3>
+                                ❌ Odwrotny zapis
+                            </h3>
+                            <p>
+                                Jeśli mamy
+                                1 część z 4 części,
+                                zapisujemy:
+                            </p>
+                            <div class="fraction">
+                                1
+                                <hr>
+                                4
+                            </div>
+                            <p>
+                                a nie
+                            </p>
+                            <div class="fraction">
+                                4
+                                <hr>
+                                1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-card owl-warning">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>Pamiętaj</span>
+                        </div>
+                        <p>
+                            Najpierw policz wszystkie części.
+                        </p>
+                        <p>
+                            Potem policz części zaznaczone.
+                        </p>
+                        <!-- ua -->
+                        <div class="ua-box">
+                            <button class="ua-trigger">🇺🇦 Українською</button>
+                            <div class="ua-content">
+                                <p>Спочатку порахуй усі частини.</p>
+                                <p>Потім порахуй виділені частини.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 13
+        DO PLECAKA SOWY
+        ========================================== -->
+
+        <section class="slide" id="slide13">
+            <div class="lesson-container">
+                <div class="card section-mission">
+                    <div class="rule-title">
+                        <img src="image/sowa_misia.png" alt="Sowa EduMost">
+                        <span>Misja Sowy EduMost</span>
+                    </div>
+                    <div class="owl-card owl-mission">
+                        <h4>🎯 Misja</h4>
+                        <p>
+                            Sowa przygotowuje przyjęcie
+                            dla swoich przyjaciół.
+                        </p>
+                        <p>
+                            Pomóż jej rozwiązać zadania.
+                        </p>
+                    </div>
+                    <!-- Zadanie 1 -->
+                    <div class="quiz-block">
+                        <h3>🍕 Zadanie 1</h3>
+                        <img src="image/pizza-2-6.png" class="lesson-image zum" style="max-width:400px;margin:auto;">
+                        <p class="wopros">
+                            Jaka część pizzy została zaznaczona?
+                        </p>
+                        <div class="answers">
+                            <button class="quiz-answer">
+                                1/6
+                            </button>
+                            <button class="quiz-answer" data-correct="true">
+                                2/6
+                            </button>
+                            <button class="quiz-answer">
+                                4/6
+                            </button>
+                        </div>
+                        <div class="task-result"></div>
+                    </div>
+                    <hr>
+
+                    <!-- Zadanie 2 -->
+
+                    <div class="quiz-block">
+                        <h3>🍫 Zadanie 2</h3>
+                        <img src="image/zadanie_2.png" class="lesson-image zum" style="max-width:400px;margin:auto;">
+                        <p class="wopros">
+                            Co trzeba zrobić najpierw?
+                        </p>
+                        <div class="answers">
+                            <button class="quiz-answer" data-correct="true">
+                                Policzyć wszystkie części
+                            </button>
+                            <button class="quiz-answer">
+                                Policzyć tylko zaznaczone
+                            </button>
+                        </div>
+                        <div class="task-result"></div>
+                    </div>
+                    <hr>
+
+                    <!-- Zadanie 3 -->
+
+                    <div class="quiz-block">
+                        <h3>🎂 Zadanie 3</h3>
+                        <img src="image/zadanie_3.png" class="lesson-image zum" style="max-width:400px;margin:auto;">
+                        <p class="wopros">
+                            Czy możemy zapisać ułamek,
+                            jeśli części nie są równe?
+                        </p>
+                        <div class="answers">
+                            <button class="quiz-answer">
+                                Tak
+                            </button>
+                            <button class="quiz-answer" data-correct="true">
+                                Nie
+                            </button>
+                        </div>
+                        <div class="task-result"></div>
+                    </div>
+                    <div class="owl-card owl-remember">
+                        <h4>🏆 Brawo!</h4>
+                        <p>
+                            Sowa jest bardzo zadowolona.
+                            Pomogłeś jej ukończyć misję.
+                        </p>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==========================================
+        SLIDE 14
+        MOST WIEDZY
+        ========================================== -->
+        
+        <section class="slide" id="slide14">
+            <div class="lesson-container">
+                <div class="card section-summary">
+                    <h2>🎒 Do plecaka Sowy</h2>
+                    <div class="owl-card owl-remember">
+                        <div class="rule-title">
+                            <img src="image/sowa_zapamientaj.png" alt="Sowa EduMost">
+                            <span>Co zapamiętujemy?</span>
+                        </div>
+                        <ul>
+                            <li>
+                                ✅ Ułamek pokazuje część całości.
+                            </li>
+                            <li>
+                                ✅ Całość musi być podzielona
+                                na równe części.
+                            </li>
+                            <li>
+                                ✅ Licznik mówi,
+                                ile części bierzemy.
+                            </li>
+                            <li>
+                                ✅ Mianownik mówi,
+                                na ile części podzielono całość.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- ua -->
+                    <div class="ua-box">
+                        <button class="ua-trigger">🇺🇦 Українською</button>
+                        <div class="ua-content">
+                            <p><b>Що ми запам’ятовуємо?</b></p>
+                            <p>✅ Дріб показує частину цілого.</p>
+                            <p>✅ Ціле має бути поділене на рівні частини.</p>
+                            <p>✅ Чисельник показує, скільки частин ми беремо.</p>
+                            <p>✅ Знаменник показує, на скільки частин поділили ціле.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <!-- Most Wiedzy -->
+                    <h2>Most Wiedzy</h2>
+                    <div class="bridge-info">
+                        <img src="image/owl_bridge.png" alt="Sowa EduMost">
+
+                        <div>
+
+                            <h3>🌉 Co to jest Most Wiedzy?</h3>
+
+                            <p>
+                                Każde nowe słowo,
+                                które poznajesz,
+                                trafia na Twój Most Wiedzy.
+                            </p>
+
+                            <p>
+                                Te słowa będą wracały
+                                w kolejnych lekcjach matematyki.
+                            </p>
+
+                            <p>
+                                Im więcej słów poznasz,
+                                tym silniejszy stanie się Twój Most Wiedzy.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <!-- ua -->
+                    <div class="ua-box">
+                        <button class="ua-trigger">🇺🇦 Українською</button>
+                        <div class="ua-content">
+                            <p>🌉 <b>Що таке Міст знань?</b></p>
+                            <p>Кожне нове слово, яке ти вивчаєш, потрапляє до твого Мосту знань.</p>
+                            <p>Ці слова будуть знову з'являтися на наступних уроках математики.</p>
+                            <p>Чим більше слів ти знаєш, тим міцнішим стає твій Міст знань.</p>
+                        </div>
+                    </div>
+                    <div class="vocab-grid">
+                        <div class="word-card">
+                            <h3>🍕</h3>
+                            <p>Całość</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>🧩</h3>
+                            <p>Część</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>⚖️</h3>
+                            <p>Równe części</p>
+                        </div>
+                        <div class="word-card">
+                            <h3>➗</h3>
+                            <p>Ułamek</p>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==========================================
+        SLIDE 15
+        MOST WIEDZY
+        ========================================== -->
+        
+        <section class="slide" id="slide15">
+            <div class="lesson-container">
+                <div class="card section-summary">
+                    <h2>Podsumowanie</h2>
+                   
+                    <div class="image">
+                        <img src="image/7.png" alt="Sowa EduMost" class="zum">
+
+                    </div>
+                    <div class="image">
+                        <img src="image/8.png" alt="Sowa EduMost" class="zum">
+
+                    </div>
+                  
+                    <div class="navigation">
+                        <button class="btn btn-secondary" onclick="prevSlide()">
+                            ← Wstecz
+                        </button>
+                        <button class="btn btn-primary" onclick="nextSlide()">
+                            Dalej →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+        SLIDE 16
+        GRATULACJE
+        ========================================== -->
+
+        <section class="slide" id="slide16">
+            <div class="lesson-container">
+                <div class="hero-card">
+                    <h1>🏅 Gratulacje!</h1>
+                    <h3>
+                        Ukończyłeś lekcję
+                        o ułamkach.
+                    </h3>
+                    <div style="
+                font-size:80px;
+                margin:30px 0;">
+                        🍕➗📚
+                    </div>
+                    <p>
+                        Teraz już wiesz:
+                    </p>
+                    <ul style="
+                max-width:700px;
+                margin:20px auto;
+                text-align:left;">
+                        <li>
+                            ✅ czym jest całość
+                        </li>
+                        <li>
+                            ✅ czym jest część
+                        </li>
+                        <li>
+                            ✅ czym jest ułamek
+                        </li>
+                        <li>
+                            ✅ jak odczytywać proste ułamki
+                        </li>
+                        <li>
+                            ✅ dlaczego części muszą być równe
+                        </li>
+                    </ul>
+                    <h3>
+                        ⭐ Jesteś gotowy
+                        na następną lekcję!
+                    </h3>
+                    <br>
+                    <a href="#" class="btn btn-answer">
+                        📋 Ankieta dla rodziców
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==================================================
+    FOOTER
+    ================================================== -->
+
+    <footer>
+
+        © 2026 EduMost
+        • Polska szkoła bez stresu
+
+    </footer>
+
+    <!-- ==================================================
+    MODALS UA
+    ================================================== -->
+
+
+
+    <!-- ==================================================
+    JS
+    ================================================== -->
+
+    <script src="scriptMat.js"></script>
+
+</body>
+
+</html>
