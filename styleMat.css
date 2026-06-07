@@ -96,7 +96,17 @@ margin-left: 5%;
 }
 /* bridge-info */
 .bridge-info img{
-    width: 100%;
+    /* width: 100%; */
+    display:grid;
+
+    grid-template-columns:
+    300px 1fr;
+
+    gap:30px;
+
+    align-items:center;
+
+    margin:30px 0;
     
 }
 .image{
@@ -292,8 +302,9 @@ gap:20px;
     /* box-shadow:
     0 4px 12px rgba(0,0,0,.06);
     background:#fff; */
-    width: 400px;
-    margin: 0 auto;
+    width:100%;
+    max-width:400px;
+    margin:0 auto;
 }
 .ua-trigger{
     width:auto;
@@ -366,10 +377,12 @@ gap:20px;
 .rule-title{
     display:flex;
     align-items:center;
+    justify-content:center;
     gap:10px;
-    margin-bottom:15px;
-    max-width: 35%;
-    margin: 20px auto;
+    margin:20px auto;
+    max-width:100%;
+    flex-wrap:wrap;
+    text-align:center;
 }
 
 .rule-title img{
@@ -669,7 +682,54 @@ padding:30px;
 }
 
 p{
-    font-size:1rem;
+    font-size:1.2rem;
+}
+.image{
+    width:100%;
+}
+.bridge-info{
+
+    grid-template-columns:1fr;
+    max-width: 100%;
+    text-align:center;
+}
+.bridge-info img{
+    max-width: 90%;
+
+}
+h4{
+    font-size:1.2rem;
+}
+.btn-answer{
+ 
+    font-size:18px;
+}
+.fraction{
+
+    font-size:2.5rem;
+}
+.lesson-container{
+
+    width:94%;
+}
+body{
+    overflow-x:hidden;
+}
+
+.rule-title span{
+    font-size:22px;
+}
+
+.math-object-card{
+    padding:15px;
+}
+
+.word-card{
+    padding:15px;
+}
+
+.back-btn{
+    font-size:18px;
 }
 
 }
